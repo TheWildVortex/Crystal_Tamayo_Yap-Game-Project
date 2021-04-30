@@ -5,33 +5,33 @@ using UnityEngine.UI;
 
 public class PanelOpener : MonoBehaviour
 {
-    public GameObject Panel;
-    public Button AttackB;
-    public Button CastB;
-    public Button FuriteB;
-    public Button RunB;
+    public GameObject Panel; //Panel that needs to be opened
+    public Button AttackB; //Attack Button
+    public Button CastB; //Cast Button
+    public Button FuriteB; //Furite Button
+    public Button RunB; //Run button
 
     public void PanelToggle()
     {
-        if (!Panel.activeSelf)
+        if (!Panel.activeSelf) //Check if panel is not active
         {
-            Panel.SetActive(true);
-            AttackB.interactable = false;
-            CastB.interactable = false;
-            FuriteB.interactable = false;
-            RunB.interactable = false;
+            Panel.SetActive(true); //Set panel to active
+            AttackB.interactable = false; //Disable Attack Button
+            CastB.interactable = false; //Disable Cast Button
+            FuriteB.interactable = false; //Disable Furite Button
+            RunB.interactable = false; //Disable Run Button
         }
     }
 
-    private void Update()
+    private void Update() //Checks every frame
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape)) //Check if Escape key is pressed
         {
-            Panel.SetActive(false);
-            AttackB.interactable = true;
-            CastB.interactable = true;
-            FuriteB.interactable = true;
-            RunB.interactable = true;
+            Panel.SetActive(false); //Set panel to not active
+            AttackB.interactable = true; //Enable Attack Button
+            CastB.interactable = true; //Enable Cast Button
+            FuriteB.interactable = true; //Enable Furite Button
+            RunB.interactable = true; //Enable Run Button
         }
     }
 }
