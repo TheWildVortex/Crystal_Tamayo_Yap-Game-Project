@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Ducky
+  unitType: Ducky
   unitLevel: 0
   damage: 0
   maxHP: 0
