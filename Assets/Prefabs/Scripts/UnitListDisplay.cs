@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class EnemyListDisplay : MonoBehaviour
+public class UnitListDisplay : MonoBehaviour
 {
-    public Unit unitName;
+    public Text textName;
     
     public Unit unitType;
 
@@ -23,8 +24,8 @@ public class EnemyListDisplay : MonoBehaviour
     public void Prime(Unit unitType)
     {
         this.unitType = unitType;
-        if (unitName != null)
-            unitName.unitName = unitType.unitName;
+        if (textName != null)
+            textName.text = unitType.unitName;
 
     }
 }
