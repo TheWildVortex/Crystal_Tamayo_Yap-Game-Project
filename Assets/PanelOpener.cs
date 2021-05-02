@@ -6,14 +6,8 @@ using UnityEngine.UI;
 public class PanelOpener : MonoBehaviour
 {
     public GameObject Panel; //Panel that needs to be opened
-    public Button AttackB; //Attack Button
-    public Button CastB; //Cast Button
-    public Button FuriteB; //Furite Button
-    public Button RunB; //Run button
-<<<<<<< HEAD
+    public Button AttackB,CastB,FuriteB,RunB; //Create variables for buttons
     
-=======
->>>>>>> b97cd9c38315c95700729ff985c150c0575f4d9c
 
     public void PanelToggle()
     {
