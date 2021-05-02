@@ -1,17 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class UnitListDisplay : MonoBehaviour
+public class UnitList : MonoBehaviour
 {
-    public Transform targetTransform;
-    public UnitDisplay unitDisplayPrefab;
+    public List<Unit> Units = new List<Unit>();
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -19,5 +17,4 @@ public class UnitListDisplay : MonoBehaviour
     {
         
     }
-
 }

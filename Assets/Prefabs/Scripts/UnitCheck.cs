@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UnitListDisplay : MonoBehaviour
+public class UnitCheck : MonoBehaviour
 {
-    public Transform targetTransform;
-    public UnitDisplay unitDisplayPrefab;
-
-    // Start is called before the first frame update
+    public Button Abberation, Goblin, Rat, Renegade, Slime;
     void Start()
     {
-
+        
     }
+
 
     // Update is called once per frame
     void Update()
     {
         
     }
-
 }
