@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Slime
+  unitType: Slime
   unitLevel: 0
   damage: 0
   maxHP: 0
