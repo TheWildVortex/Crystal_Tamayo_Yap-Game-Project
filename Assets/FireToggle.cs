@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class FireToggle : MonoBehaviour
 {
-    public static bool FireCheck;
+    public static bool FireCheck = false;
     public int counter = 0;
     public Button Furite;
     public Text FuriteText;

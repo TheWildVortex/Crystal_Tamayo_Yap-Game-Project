@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class WaterToggle : MonoBehaviour
 {
-    public static bool WaterCheck;
+    public static bool WaterCheck = false;
     public int counter = 0;
     public Button Furite;
     public Text FuriteText;

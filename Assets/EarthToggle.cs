@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EarthToggle : MonoBehaviour
 {
-    public static bool EarthCheck;
+    public static bool EarthCheck = false;
     public int counter = 0;
     public Button Furite;
     public Text FuriteText;

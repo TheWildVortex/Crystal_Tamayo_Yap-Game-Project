@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class WindToggle : MonoBehaviour
 {
-    public static bool WindCheck;
+    public static bool WindCheck = false;
     public int counter = 0;
     public Button Furite;
     public Text FuriteText;
