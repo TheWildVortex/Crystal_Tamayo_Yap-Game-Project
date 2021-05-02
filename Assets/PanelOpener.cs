@@ -10,7 +10,10 @@ public class PanelOpener : MonoBehaviour
     public Button CastB; //Cast Button
     public Button FuriteB; //Furite Button
     public Button RunB; //Run button
+<<<<<<< HEAD
     
+=======
+>>>>>>> b97cd9c38315c95700729ff985c150c0575f4d9c
 
     public void PanelToggle()
     {
