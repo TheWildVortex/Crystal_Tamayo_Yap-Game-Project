@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class EnemyListDisplay : MonoBehaviour
 {
-    public Enemy Enemy_Name;
+    public Unit unitName;
     
-    public EnemyType Type;
+    public Unit unitType;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (unitType != null) Prime (unitType);
     }
 
     // Update is called once per frame
@@ -20,11 +20,11 @@ public class EnemyListDisplay : MonoBehaviour
         
     }
 
-    public void Prime(EnemyType Type)
+    public void Prime(Unit unitType)
     {
-        this.Type = Type;
-        if (textName != null)
-            textName.text = Type.displayName;
+        this.unitType = unitType;
+        if (unitName != null)
+            unitName.unitName = unitType.unitName;
 
     }
 }
