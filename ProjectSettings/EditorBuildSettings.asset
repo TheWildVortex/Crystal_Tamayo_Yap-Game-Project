@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Turn-Based Battle.unity
     guid: c9d6ab975422a9d4a94f6ea967fb0ab8
+  - enabled: 1
+    path: Assets/Scenes/Tile-Based Movement.unity
+    guid: db23a727ad017c740841348daba4294d
   m_configObjects: {}
