@@ -15,7 +15,8 @@ public class Triggertest : MonoBehaviour
 
     public void DisplayText()
     {
-        displayText.text = "You hit " + Name + " with your spell";
+        string SelectedSpell = PlayerPrefs.GetString("SelectedSpell");
+        displayText.text = "You cast " + SelectedSpell + " on " + Name;
     }
 
     void Update()

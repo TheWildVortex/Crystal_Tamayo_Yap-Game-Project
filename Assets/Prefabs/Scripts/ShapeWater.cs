@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ShapeWater : MonoBehaviour
+{
+    public string SpellName;
+
+    public void OnClick()
+    {
+        PlayerPrefs.SetString("SelectedSpell", "Shape Water");
+    }
+}
