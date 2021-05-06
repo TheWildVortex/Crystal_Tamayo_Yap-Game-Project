@@ -10,11 +10,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Tilemap collisionTiles;
 
-    private @PlayerMovement controls;
+    private PlayerMovement controls;
 
     private void Awake()
     {
-        controls = new @PlayerMovement();
+        controls = new PlayerMovement();
     }
 
     private void OnEnable()
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        controls.Main.Movement.performed += ctx => Move(ctx.ReadValue<Vector2>());
+       controls.Main.Movement.performed += ctx => Move(ctx.ReadValue<Vector2>());
     }
 
     private void Move(Vector2 direction)
