@@ -4846,11 +4846,19 @@ PrefabInstance:
       value: DisplayText
       objectReference: {fileID: 0}
     - target: {fileID: 1724868180632792020, guid: a190a80120b0a3743b63395362762d16, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Reset
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724868180632792020, guid: a190a80120b0a3743b63395362762d16, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Triggertest, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1724868180632792020, guid: a190a80120b0a3743b63395362762d16, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724868180632792020, guid: a190a80120b0a3743b63395362762d16, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2985908283265353575, guid: a190a80120b0a3743b63395362762d16, type: 3}
@@ -5594,7 +5602,7 @@ RectTransform:
   m_GameObject: {fileID: 7221133537488476959}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0, z: 1}
   m_Children:
   - {fileID: 1419236382}
   - {fileID: 835743770}
@@ -5606,7 +5614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 170.1105, y: 148.85553}
+  m_AnchoredPosition: {x: 170.11, y: 153.35}
   m_SizeDelta: {x: 35.882797, y: -86.939575}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7221133537488476953

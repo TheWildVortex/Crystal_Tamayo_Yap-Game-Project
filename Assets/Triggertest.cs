@@ -19,13 +19,6 @@ public class Triggertest : MonoBehaviour
         SelectedSpell = PlayerPrefs.GetString("SelectedSpell");
         displayText.text = "You hit " + Name + " with your " + SelectedSpell + " attack!";
         SelectedSpell = "";
-    }
-
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            displayText.text = "";
-        }
+        PlayerPrefs.SetString("SelectedSpell", "");
     }
 }
