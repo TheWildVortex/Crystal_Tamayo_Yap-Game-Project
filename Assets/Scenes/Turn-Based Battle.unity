@@ -520,6 +520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 2115750313}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 191528256}
@@ -929,6 +930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 1303009299}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 191528256}
@@ -1910,6 +1912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 2010696162}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 136193167}
@@ -2348,6 +2351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 2010696162}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 191528256}
@@ -2464,6 +2468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 2010696162}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 191528256}
@@ -2879,6 +2884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 2010696162}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 191528256}
@@ -3195,6 +3201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 7221133537488476959}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 191528256}
@@ -4443,6 +4450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 2010696162}
+  Panel2: {fileID: 2010696162}
   AttackB: {fileID: 1089433729}
   CastB: {fileID: 136193167}
   FuriteB: {fileID: 191528256}
