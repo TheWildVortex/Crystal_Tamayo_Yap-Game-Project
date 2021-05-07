@@ -4637,7 +4637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundTiles: {fileID: 1247285089}
   collisionTiles: {fileID: 774966622}
-  moveSpeed: 3
+  moveSpeed: 10
 --- !u!95 &2103048790
 Animator:
   serializedVersion: 3
@@ -4697,7 +4697,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9026824460028888529, guid: 8de1ffd7c7bd4b54bacdb709a5cd632b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4717,7 +4717,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103048788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.539, y: 1.4339, z: -1}
+  m_LocalPosition: {x: 0.539, y: 1.4339, z: -2}
   m_LocalScale: {x: 1.9348, y: 1.8455, z: 1}
   m_Children:
   - {fileID: 2095571586}

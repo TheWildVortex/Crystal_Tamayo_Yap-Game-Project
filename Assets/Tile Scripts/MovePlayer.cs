@@ -24,9 +24,9 @@ public class MovePlayer : MonoBehaviour
 
     void Update()
     {
-        x = Input.GetAxis("Horizontal");
-        y = Input.GetAxis("Vertical");
-        dir = new Vector2(x, y);
+        x = Input.GetAxisRaw("Horizontal");
+        y = Input.GetAxisRaw("Vertical");
+        dir = new Vector2(x/2, y/2);
 
         if (x!=0||y!=0)
         {
@@ -50,10 +50,13 @@ public class MovePlayer : MonoBehaviour
     private void Move(Vector2 direction)
     {
         if (CheckMove(direction))
+        {
             anim.SetFloat("X", x);
             anim.SetFloat("Y", y);
 
-            transform.Translate(x * Time.deltaTime * moveSpeed, y * Time.deltaTime * moveSpeed, 0);
+            transform.position += (Vector3)(direction * Time.deltaTime * moveSpeed);
+            //transform.Translate(direction.x * Time.deltaTime * moveSpeed, direction.y * Time.deltaTime * moveSpeed, 0);
+        } 
     }
 
     private bool CheckMove(Vector2 direction)
@@ -61,7 +64,10 @@ public class MovePlayer : MonoBehaviour
         Vector3Int gridPosition = groundTiles.WorldToCell(transform.position + (Vector3)direction);
 
         if (!groundTiles.HasTile(gridPosition) || collisionTiles.HasTile(gridPosition))
+        {
+            //transform.Translate(0, 0, 0);
             return false;
+        }  
         return true;
     }
 }
