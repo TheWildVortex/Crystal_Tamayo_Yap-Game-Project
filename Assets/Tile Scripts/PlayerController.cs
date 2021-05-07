@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
     {
         Vector3Int gridPosition = groundTiles.WorldToCell(transform.position + (Vector3)direction);
 
-        if (groundTiles.HasTile(gridPosition) || collisionTiles.HasTile(gridPosition))
+        if (!groundTiles.HasTile(gridPosition) || collisionTiles.HasTile(gridPosition))
             return false;
         return true;
     }
