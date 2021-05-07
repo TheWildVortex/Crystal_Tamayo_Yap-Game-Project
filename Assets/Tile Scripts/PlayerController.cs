@@ -10,6 +10,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Tilemap collisionTiles;
 
+    private Animator anim;
+    private float x, y;
+    private bool isWalking;
+    public float moveSpeed;
+
     private PlayerMovement controls;
 
     private void Awake()
@@ -35,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
     private void Move(Vector2 direction)
     {
+
         if (CheckMove(direction))
             transform.position += (Vector3)direction;
     }

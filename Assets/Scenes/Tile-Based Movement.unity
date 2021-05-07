@@ -4632,11 +4632,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2103048788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6680ede80c5a3f49bfdf1cd2f075d46, type: 3}
+  m_Script: {fileID: 11500000, guid: 5eb63fc2e3ef177478176c5bec8f4c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   groundTiles: {fileID: 1247285089}
   collisionTiles: {fileID: 774966622}
+  moveSpeed: 3
 --- !u!95 &2103048790
 Animator:
   serializedVersion: 3
