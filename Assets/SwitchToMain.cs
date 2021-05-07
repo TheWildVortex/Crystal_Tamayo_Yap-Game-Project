@@ -9,4 +9,12 @@ public class SwitchToMain : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - SceneManager.GetActiveScene().buildIndex);
     }
+
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape)) //Check if Escape key is pressed
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - SceneManager.GetActiveScene().buildIndex);
+        }
+    }
 }
