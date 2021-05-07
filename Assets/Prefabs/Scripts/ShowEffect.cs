@@ -13,7 +13,7 @@ public class ShowEffect : MonoBehaviour
     {
         if (!Text.activeSelf) 
         {
-            Text.SetActive(true); 
+            Text.SetActive(true);
         }
     }
 

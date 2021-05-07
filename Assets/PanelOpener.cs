@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PanelOpener : MonoBehaviour
 {
-    public GameObject Panel; //Panel that needs to be opened
+    public GameObject Panel,Panel2; //Panels that need to be opened
     public Button AttackB,CastB,FuriteB,RunB; //Create variables for buttons
     
 
@@ -25,7 +25,8 @@ public class PanelOpener : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1)) //Check if Right Click is pressed
         {
-            Panel.SetActive(false); //Set panel to not active
+            Panel.SetActive(false);
+            Panel2.SetActive(false);//Set panels to not active
             AttackB.interactable = true; //Enable Attack Button
             CastB.interactable = true; //Enable Cast Button
             FuriteB.interactable = true; //Enable Furite Button
