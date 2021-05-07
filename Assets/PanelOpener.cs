@@ -23,7 +23,7 @@ public class PanelOpener : MonoBehaviour
 
     private void Update() //Checks every frame
     {
-        if (Input.GetKey(KeyCode.Escape)) //Check if Escape key is pressed
+        if (Input.GetMouseButtonDown(1)) //Check if Right Click is pressed
         {
             Panel.SetActive(false); //Set panel to not active
             AttackB.interactable = true; //Enable Attack Button
