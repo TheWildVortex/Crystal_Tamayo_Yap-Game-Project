@@ -7,7 +7,7 @@ public class WindToggle : MonoBehaviour
 {
     public static bool WindCheck = false;
     public int counter = 0;
-    public Button Furite;
+    public Button Furite,FireB, WaterB, EarthB, WindB;
     public Text FuriteText;
 
     void Update()
@@ -22,11 +22,17 @@ public class WindToggle : MonoBehaviour
         {
             FuriteText.text = "<Wind>";
             WindCheck = true;
+            FireB.interactable = false;
+            WaterB.interactable = false;
+            EarthB.interactable = false;
         }
         else
         {
             FuriteText.text = "Wind";
             WindCheck = false;
+            FireB.interactable = true;
+            WaterB.interactable = true;
+            EarthB.interactable = true;
         }
     }
 }

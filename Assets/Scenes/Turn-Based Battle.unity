@@ -6612,6 +6612,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Earth Button
       objectReference: {fileID: 0}
+    - target: {fileID: 1028003994872320798, guid: 6c917402c2a6b0f4090ae441b97c569e, type: 3}
+      propertyPath: FireB
+      value: 
+      objectReference: {fileID: 6917747302263721150}
+    - target: {fileID: 1028003994872320798, guid: 6c917402c2a6b0f4090ae441b97c569e, type: 3}
+      propertyPath: WindB
+      value: 
+      objectReference: {fileID: 2574823230631913464}
+    - target: {fileID: 1028003994872320798, guid: 6c917402c2a6b0f4090ae441b97c569e, type: 3}
+      propertyPath: EarthB
+      value: 
+      objectReference: {fileID: 1028003994271187811}
+    - target: {fileID: 1028003994872320798, guid: 6c917402c2a6b0f4090ae441b97c569e, type: 3}
+      propertyPath: WaterB
+      value: 
+      objectReference: {fileID: 4947017690770036027}
     - target: {fileID: 1028003994872320799, guid: 6c917402c2a6b0f4090ae441b97c569e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6698,6 +6714,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c917402c2a6b0f4090ae441b97c569e, type: 3}
+--- !u!114 &1028003994271187811 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1028003994872320793, guid: 6c917402c2a6b0f4090ae441b97c569e, type: 3}
+  m_PrefabInstance: {fileID: 1028003994271187810}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1877313480116078204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6870,6 +6897,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1303009298}
     m_Modifications:
+    - target: {fileID: 2574823230515804268, guid: 5b83bdc1a99e77c4fb867b725077c56b, type: 3}
+      propertyPath: FireB
+      value: 
+      objectReference: {fileID: 6917747302263721150}
+    - target: {fileID: 2574823230515804268, guid: 5b83bdc1a99e77c4fb867b725077c56b, type: 3}
+      propertyPath: WindB
+      value: 
+      objectReference: {fileID: 2574823230631913464}
+    - target: {fileID: 2574823230515804268, guid: 5b83bdc1a99e77c4fb867b725077c56b, type: 3}
+      propertyPath: EarthB
+      value: 
+      objectReference: {fileID: 1028003994271187811}
+    - target: {fileID: 2574823230515804268, guid: 5b83bdc1a99e77c4fb867b725077c56b, type: 3}
+      propertyPath: WaterB
+      value: 
+      objectReference: {fileID: 4947017690770036027}
     - target: {fileID: 3950847868685121631, guid: 5b83bdc1a99e77c4fb867b725077c56b, type: 3}
       propertyPath: m_Name
       value: Wind Button
@@ -6960,6 +7003,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b83bdc1a99e77c4fb867b725077c56b, type: 3}
+--- !u!114 &2574823230631913464 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2789015891996256149, guid: 5b83bdc1a99e77c4fb867b725077c56b, type: 3}
+  m_PrefabInstance: {fileID: 2574823230631913463}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4947017690770036026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6967,6 +7021,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1303009298}
     m_Modifications:
+    - target: {fileID: 4947017690673617024, guid: 0ff520bcb71374f468658b0fbf0e100c, type: 3}
+      propertyPath: FireB
+      value: 
+      objectReference: {fileID: 6917747302263721150}
+    - target: {fileID: 4947017690673617024, guid: 0ff520bcb71374f468658b0fbf0e100c, type: 3}
+      propertyPath: WindB
+      value: 
+      objectReference: {fileID: 2574823230631913464}
+    - target: {fileID: 4947017690673617024, guid: 0ff520bcb71374f468658b0fbf0e100c, type: 3}
+      propertyPath: EarthB
+      value: 
+      objectReference: {fileID: 1028003994271187811}
+    - target: {fileID: 4947017690673617024, guid: 0ff520bcb71374f468658b0fbf0e100c, type: 3}
+      propertyPath: WaterB
+      value: 
+      objectReference: {fileID: 4947017690770036027}
     - target: {fileID: 4947017690673617025, guid: 0ff520bcb71374f468658b0fbf0e100c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7057,6 +7127,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ff520bcb71374f468658b0fbf0e100c, type: 3}
+--- !u!114 &4947017690770036027 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4947017690673617027, guid: 0ff520bcb71374f468658b0fbf0e100c, type: 3}
+  m_PrefabInstance: {fileID: 4947017690770036026}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6206734433516799213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7314,6 +7395,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counter: 0
   Furite: {fileID: 6917747302263721150}
+  FireB: {fileID: 6917747302263721150}
+  WaterB: {fileID: 4947017690770036027}
+  EarthB: {fileID: 1028003994271187811}
+  WindB: {fileID: 2574823230631913464}
   FuriteText: {fileID: 235414341}
 --- !u!224 &8097593748195005302
 RectTransform:

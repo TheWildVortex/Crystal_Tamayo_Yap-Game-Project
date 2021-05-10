@@ -7,7 +7,7 @@ public class FireToggle : MonoBehaviour
 {
     public static bool FireCheck = false;
     public int counter = 0;
-    public Button Furite;
+    public Button Furite, FireB, WaterB, EarthB, WindB;
     public Text FuriteText;
 
     void Update()
@@ -22,11 +22,17 @@ public class FireToggle : MonoBehaviour
         {
             FuriteText.text = "<Fire>";
             FireCheck = true;
+            WaterB.interactable = false;
+            EarthB.interactable = false;
+            WindB.interactable = false;
         }
         else
         {
             FuriteText.text = "Fire";
             FireCheck = false;
+            WindB.interactable = true;
+            WaterB.interactable = true;
+            EarthB.interactable = true;
         }
     }
 }

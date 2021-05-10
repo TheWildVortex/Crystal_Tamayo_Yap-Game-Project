@@ -45,6 +45,18 @@ public class MovePlayer : MonoBehaviour
                 anim.SetBool("isWalking", isWalking);
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (moveSpeed <= 10)
+            {
+                moveSpeed = moveSpeed * 2;
+            }
+            else
+            {
+                moveSpeed = 10;
+            }
+        }
     }
 
     private void Move(Vector2 direction)
