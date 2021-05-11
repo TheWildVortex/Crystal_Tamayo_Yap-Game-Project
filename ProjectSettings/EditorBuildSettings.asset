@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tile-Based Movement.unity
     guid: db23a727ad017c740841348daba4294d
+  - enabled: 1
+    path: Assets/Scenes/Platformer.unity
+    guid: 562c9695f5f0f214ebe270d6ff438a68
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 2f2535d163bddd641bab4739072eaa96, type: 2}
