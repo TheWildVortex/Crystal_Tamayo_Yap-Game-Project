@@ -9,15 +9,22 @@ public class v2Character2DMovement : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
 
+
+    public Animator animator;
     
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     
     private void Update()
     {
+        //Animation
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
+
         //Horizontal Movement
         var movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
