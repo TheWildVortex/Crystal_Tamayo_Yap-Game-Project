@@ -3298,6 +3298,7 @@ GameObject:
   - component: {fileID: 1980382096}
   - component: {fileID: 1980382095}
   - component: {fileID: 1980382094}
+  - component: {fileID: 1980382097}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -3370,6 +3371,18 @@ Transform:
   m_Father: {fileID: 1310217889}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1980382097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980382093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a614ddf9f624a14c9a3d350c788f7d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1997843471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3526,11 +3539,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2466134582958886128, guid: 6346235ee1dfea14d9c642401b3d1b24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.9239
+      value: -16.02
       objectReference: {fileID: 0}
     - target: {fileID: 2466134582958886128, guid: 6346235ee1dfea14d9c642401b3d1b24, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 58.05
+      value: 39.96
       objectReference: {fileID: 0}
     - target: {fileID: 2466134582958886128, guid: 6346235ee1dfea14d9c642401b3d1b24, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3730,11 +3743,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8722549759596348573, guid: 9293c7fa193a85d4b8acd0c7828c9efa, type: 3}
       propertyPath: m_Size.y
-      value: 46.030243
+      value: 53.697514
       objectReference: {fileID: 0}
     - target: {fileID: 8722549759596348573, guid: 9293c7fa193a85d4b8acd0c7828c9efa, type: 3}
       propertyPath: m_Offset.y
-      value: 1.5219889
+      value: -2.3116474
       objectReference: {fileID: 0}
     - target: {fileID: 8722549759596348573, guid: 9293c7fa193a85d4b8acd0c7828c9efa, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
