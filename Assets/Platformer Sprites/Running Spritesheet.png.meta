@@ -21,9 +21,6 @@ TextureImporter:
       213: 6270322998749251766
     second: Running Spritesheet_5
   - first:
-      213: 5175170062794701273
-    second: Running Spritesheet_6
-  - first:
       213: 3054002043870040080
     second: Running Spritesheet_7
   - first:
@@ -38,6 +35,9 @@ TextureImporter:
   - first:
       213: 314898583195196487
     second: Running Spritesheet_11
+  - first:
+      213: 4412914371211000942
+    second: Running Spritesheet_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -152,7 +152,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 243
-        y: 20
+        y: 19
         width: 168
         height: 346
       alignment: 0
@@ -173,9 +173,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 452
-        y: 20
+        y: 19
         width: 168
-        height: 355
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,9 +194,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 668
-        y: 20
+        y: 19
         width: 143
-        height: 356
+        height: 357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
         serializedVersion: 2
         x: 860
         y: 9
-        width: 141
-        height: 357
+        width: 142
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +237,8 @@ TextureImporter:
         serializedVersion: 2
         x: 1048
         y: 18
-        width: 132
-        height: 348
+        width: 131
+        height: 347
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,34 +253,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 1157
-        y: 64
-        width: 184
-        height: 302
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d93d1db0c5e1d740800000000000000
-      internalID: 5175170062794701273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Running Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1349
-        y: 10
-        width: 153
-        height: 356
+        x: 1210
+        y: 64
+        width: 183
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +277,10 @@ TextureImporter:
       name: Running Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 1550
-        y: 18
-        width: 131
-        height: 346
+        x: 1401
+        y: 10
+        width: 154
+        height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +298,10 @@ TextureImporter:
       name: Running Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1706
-        y: 6
-        width: 139
-        height: 351
+        x: 1603
+        y: 18
+        width: 132
+        height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +319,10 @@ TextureImporter:
       name: Running Spritesheet_10
       rect:
         serializedVersion: 2
-        x: 1869
-        y: 14
-        width: 186
-        height: 337
+        x: 1759
+        y: 6
+        width: 139
+        height: 351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +340,10 @@ TextureImporter:
       name: Running Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 2081
-        y: 38
-        width: 237
-        height: 310
+        x: 1921
+        y: 13
+        width: 187
+        height: 338
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +357,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Running Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 38
+        width: 238
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c7f307d32dd3d30800000000000000
+      internalID: 4412914371211000942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 4e2f8f3f482a29f4da28a76ba853790b
     internalID: 0
     vertices: []
     indices: 
