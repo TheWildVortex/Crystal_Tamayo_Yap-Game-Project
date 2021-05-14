@@ -45,6 +45,7 @@ public class v1Character2DController : MonoBehaviour
     {
         body.velocity = new Vector2(body.velocity.x, speed);
         grounded = false;
+        anim.SetTrigger("Jump");
         if(grounded == false){
             falling = true;
         }
