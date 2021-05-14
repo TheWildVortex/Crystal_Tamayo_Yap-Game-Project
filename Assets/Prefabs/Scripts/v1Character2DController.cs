@@ -8,6 +8,8 @@ public class v1Character2DController : MonoBehaviour
 
     private Rigidbody2D body;
     private Animator anim;
+    private bool grounded;
+    private bool falling;
 
     private void Awake()
     {
@@ -29,10 +31,30 @@ public class v1Character2DController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
 
         //Jump
-        if (Input.GetKey(KeyCode.Space))
-            body.velocity = new Vector2(body.velocity.x, speed);
+        if (Input.GetKey(KeyCode.Space) && grounded)
+            Jump();
+            
 
         //Set animatior parameters
         anim.SetBool("Run", horizontalInput != 0);
+        anim.SetBool("grounded", grounded);
+        anim.SetBool("Falling", falling);
+    }
+
+    private void Jump()
+    {
+        body.velocity = new Vector2(body.velocity.x, speed);
+        grounded = false;
+        if(grounded == false){
+            falling = true;
+        }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Ground");
+            grounded =true;
+            falling = false;
     }
 }
