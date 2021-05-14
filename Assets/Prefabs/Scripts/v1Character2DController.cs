@@ -7,10 +7,13 @@ public class v1Character2DController : MonoBehaviour
     [SerializeField] private float speed;
 
     private Rigidbody2D body;
+    private Animator anim;
 
     private void Awake()
     {
+        //Grab references from the game objects
         body = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     
@@ -28,5 +31,8 @@ public class v1Character2DController : MonoBehaviour
         //Jump
         if (Input.GetKey(KeyCode.Space))
             body.velocity = new Vector2(body.velocity.x, speed);
+
+        //Set animatior parameters
+        anim.SetBool("Run", horizontalInput != 0);
     }
 }
