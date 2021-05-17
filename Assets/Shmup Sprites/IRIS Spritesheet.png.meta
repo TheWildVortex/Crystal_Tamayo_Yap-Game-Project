@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 56bda5c0b81d67946b72236f53136e2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5690566140953650631
+    second: IRIS Spritesheet_0
+  - first:
+      213: 5236807658856903895
+    second: IRIS Spritesheet_1
+  - first:
+      213: 3127871113978919868
+    second: IRIS Spritesheet_2
+  - first:
+      213: 2210628000219542269
+    second: IRIS Spritesheet_3
+  - first:
+      213: 248056449614002661
+    second: IRIS Spritesheet_4
+  - first:
+      213: 3578695856460288430
+    second: IRIS Spritesheet_5
+  - first:
+      213: 8872681568120087598
+    second: IRIS Spritesheet_6
+  - first:
+      213: 3793001705517873197
+    second: IRIS Spritesheet_7
+  - first:
+      213: 861261925736744290
+    second: IRIS Spritesheet_8
+  - first:
+      213: 2751796806042446476
+    second: IRIS Spritesheet_9
+  - first:
+      213: 6136730443201970265
+    second: IRIS Spritesheet_10
+  - first:
+      213: -31831632525739913
+    second: IRIS Spritesheet_11
+  - first:
+      213: 7439465338435844472
+    second: IRIS Spritesheet_12
+  - first:
+      213: 4601635349025347547
+    second: IRIS Spritesheet_13
+  - first:
+      213: -3361752581655976847
+    second: IRIS Spritesheet_14
+  - first:
+      213: -6079421512329799870
+    second: IRIS Spritesheet_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IRIS Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 852
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5686a51c3f8fe40800000000000000
+      internalID: 5690566140953650631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 1358
+        height: 1583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4f537e1d0eca840800000000000000
+      internalID: 5236807658856903895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 874
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb3bebb43e686b20800000000000000
+      internalID: 3127871113978919868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 851
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df23e9b247abdae10800000000000000
+      internalID: 2210628000219542269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 58
+        width: 1357
+        height: 1588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9bc73d606417300800000000000000
+      internalID: 248056449614002661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 874
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea15a73bbe41aa130800000000000000
+      internalID: 3578695856460288430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 851
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2424f070e8122b70800000000000000
+      internalID: 8872681568120087598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 52
+        width: 1360
+        height: 1594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28f7d974f273a430800000000000000
+      internalID: 3793001705517873197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 5112
+        y: 874
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2658b168821d3fb00800000000000000
+      internalID: 861261925736744290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 851
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae63e8d98503620800000000000000
+      internalID: 2751796806042446476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 5160
+        y: 52
+        width: 1359
+        height: 1594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950016503db0a2550800000000000000
+      internalID: 6136730443201970265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6732
+        y: 874
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778bea28c49ee8ff0800000000000000
+      internalID: -31831632525739913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 6734
+        y: 851
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879bc403f4a4e3760800000000000000
+      internalID: 7439465338435844472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 6787
+        y: 58
+        width: 1359
+        height: 1588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7598c28fa4cdf30800000000000000
+      internalID: 4601635349025347547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 8229
+        y: 852
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174a4ab96d7a851d0800000000000000
+      internalID: -3361752581655976847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IRIS Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 8279
+        y: 63
+        width: 1358
+        height: 1583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247d6bd385e81aba0800000000000000
+      internalID: -6079421512329799870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 778e411457eee8e4ab11b6ff5984cc57
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

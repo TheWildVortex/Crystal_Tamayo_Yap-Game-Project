@@ -33,10 +33,9 @@ public class v1Character2DController : MonoBehaviour
         //Jump
         if (Input.GetKey(KeyCode.Space) && grounded)
             Jump();
-            
 
-        //Set animatior parameters
-        anim.SetBool("Run", horizontalInput != 0);
+            //Set animatior parameters
+            anim.SetBool("Run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
         anim.SetBool("Falling", falling);
     }
