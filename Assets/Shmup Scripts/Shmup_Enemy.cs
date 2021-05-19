@@ -19,16 +19,6 @@ public class Shmup_Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-
-
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         rb.velocity = new Vector2(xSpeed,ySpeed*-1);

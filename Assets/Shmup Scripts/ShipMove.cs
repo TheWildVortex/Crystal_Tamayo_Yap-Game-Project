@@ -5,20 +5,20 @@ using UnityEngine;
 public class ShipMove : MonoBehaviour
 {
 
+    GameObject a, b;
+    public GameObject bullet;
     Rigidbody2D rb;
     public float speed;
+    public float bulletRate;
+    int delay = 0;
     int health = 3;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        a = transform.Find("a").gameObject;
+        b = transform.Find("b").gameObject;
     }
-    
-    void Start()
-    {
-        
-    }
-
     
     void Update()
     {
@@ -31,6 +31,11 @@ public class ShipMove : MonoBehaviour
 
         //Vertical movement test; feel free to change this
         rb.AddForce(new Vector2(0, Input.GetAxis("Vertical") * speed));
+
+        if (Input.GetKey(KeyCode.Space) && delay > bulletRate)
+            Shoot();
+
+        delay++;
     }
 
     public void Damage()
@@ -38,5 +43,12 @@ public class ShipMove : MonoBehaviour
         health--;
         if(health==0)
             Destroy(gameObject);
+    }
+
+    void Shoot()
+    {
+        delay = 0;
+        Instantiate(bullet, a.transform.position, Quaternion.identity);
+        Instantiate(bullet, b.transform.position, Quaternion.identity);
     }
 }

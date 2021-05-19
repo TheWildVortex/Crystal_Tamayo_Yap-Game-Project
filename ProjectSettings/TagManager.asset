@@ -11,6 +11,7 @@ TagManager:
   - Ground
   - PlayerShip
   - MelchiHead
+  - Enemy
   layers:
   - Default
   - TransparentFX
