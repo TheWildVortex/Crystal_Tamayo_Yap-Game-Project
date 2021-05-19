@@ -10584,7 +10584,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.534641, y: 5.2449794}
+  m_Offset: {x: -1.3142548, y: 5.860651}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10595,7 +10595,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.27082, y: 31.22107}
+  m_Size: {x: 1.5282593, y: 35.16138}
   m_EdgeRadius: 0
 --- !u!4 &2009221510
 Transform:
@@ -10624,7 +10624,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 37.08331, y: -13.34266}
+  m_Offset: {x: 39.669136, y: -13.958334}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10635,7 +10635,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 75.16662, y: 5.875021}
+  m_Size: {x: 80.33827, y: 4.643673}
   m_EdgeRadius: 0
 --- !u!61 &2009221512
 BoxCollider2D:
@@ -10650,7 +10650,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 37.08331, y: 24.789358}
+  m_Offset: {x: 39.730705, y: 25.959139}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10661,7 +10661,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 75.16662, y: 7.4493217}
+  m_Size: {x: 80.46141, y: 5.1097603}
   m_EdgeRadius: 0
 --- !u!61 &2009221513
 BoxCollider2D:
@@ -10676,7 +10676,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 71.60609, y: 5.2449794}
+  m_Offset: {x: 80.65648, y: 5.6143837}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10687,7 +10687,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.0586395, y: 31.22107}
+  m_Size: {x: 2.7340088, y: 35.407646}
   m_EdgeRadius: 0
 --- !u!1 &2021776883
 GameObject:
