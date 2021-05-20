@@ -232,6 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ebullet: {fileID: 8372507365189723095, guid: e3e799f55d2a8084bb2726aede3f7163, type: 3}
+  deathexplosion: {fileID: 9177179483966269784, guid: dae3b3385c30e4b4c97be9107752c1c5, type: 3}
   xSpeed: 0
   ySpeed: 10
   canShoot: 1

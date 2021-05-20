@@ -6,7 +6,7 @@ public class ShipMove : MonoBehaviour
 {
 
     GameObject a, b;
-    public GameObject bullet;
+    public GameObject bullet, pdeathexplosion;
     Rigidbody2D rb;
     public float speed;
     public float bulletRate;
@@ -42,7 +42,10 @@ public class ShipMove : MonoBehaviour
     {
         health--;
         if(health==0)
+        {
             Destroy(gameObject);
+            Instantiate(pdeathexplosion, transform.position, Quaternion.identity);
+        }
     }
 
     void Shoot()

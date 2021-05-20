@@ -7,7 +7,7 @@ public class Shmup_Enemy : MonoBehaviour
 
     Rigidbody2D rb;
 
-    public GameObject ebullet;
+    public GameObject ebullet, deathexplosion;
 
     public float xSpeed;
     public float ySpeed;
@@ -48,19 +48,21 @@ public class Shmup_Enemy : MonoBehaviour
         if(col.gameObject.tag=="PlayerShip")
         {
             col.gameObject.GetComponent<ShipMove>().Damage();
-            Die();
+            StartCoroutine(Die());
         }
     }
-    void Die()
+    IEnumerator Die()
     {
         gameObject.GetComponent<Animator>().Play("MelchiorDeath");
-        Destroy(gameObject,0.4f);
+        yield return new WaitForSeconds(0.4f);
+        Destroy(gameObject);
+        Instantiate(deathexplosion, transform.position, Quaternion.identity);
     }
 
     public void Damage()
     {
         health--;
         if(health==0)
-            Die();
+            StartCoroutine(Die());
     }
 }

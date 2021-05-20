@@ -5,6 +5,7 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     Rigidbody2D rb;
+    public GameObject spark;
     public float bspeed;
     int direction = 1;
 
@@ -41,6 +42,7 @@ public class BulletScript : MonoBehaviour
             {
                 col.gameObject.GetComponent<Shmup_Enemy>().Damage();
                 Destroy(gameObject);
+                Instantiate(spark, transform.position, Quaternion.identity);
             }
         }
         else
@@ -49,6 +51,7 @@ public class BulletScript : MonoBehaviour
             {
                 col.gameObject.GetComponent<ShipMove>().Damage();
                 Destroy(gameObject);
+                Instantiate(spark, transform.position, Quaternion.identity);
             }
         }
     }
