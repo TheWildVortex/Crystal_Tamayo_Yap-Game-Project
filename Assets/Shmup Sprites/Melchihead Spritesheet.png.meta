@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: d66ffb56f1424e24ebe5b15ca90a7b31
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3317927455323401181
+    second: Melchihead Spritesheet_0
+  - first:
+      213: 9019286461327281699
+    second: Melchihead Spritesheet_1
+  - first:
+      213: 6902850085989820384
+    second: Melchihead Spritesheet_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +41,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -94,10 +103,10 @@ TextureImporter:
       name: Melchihead Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 83
-        y: 37
-        width: 394
-        height: 340
+        x: 33
+        y: 0
+        width: 494
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,10 +124,10 @@ TextureImporter:
       name: Melchihead Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 642
-        y: 37
-        width: 394
-        height: 340
+        x: 592
+        y: 0
+        width: 494
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,13 +142,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Melchihead Spritesheet_3
+      name: Melchihead Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 35
-        width: 407
-        height: 342
+        x: 1151
+        y: 0
+        width: 504
+        height: 415
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d18459469ba00f50800000000000000
-      internalID: 6845660095566873045
+      spriteID: 0e7a2319499dbcf50800000000000000
+      internalID: 6902850085989820384
       vertices: []
       indices: 
       edges: []
@@ -156,7 +165,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 7e71ea1404054f74c9387630df8e971d
     internalID: 0
     vertices: []
     indices: 

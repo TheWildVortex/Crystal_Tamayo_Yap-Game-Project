@@ -12,6 +12,7 @@ TagManager:
   - PlayerShip
   - MelchiHead
   - Enemy
+  - Bound
   layers:
   - Default
   - TransparentFX

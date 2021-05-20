@@ -18,6 +18,11 @@ public class BulletScript : MonoBehaviour
         direction *= -1;
     }
 
+    void Start()
+    {
+        Destroy(gameObject, 3);
+    }
+
     void Update()
     {
         rb.velocity = new Vector2(0,bspeed * direction);
@@ -25,7 +30,12 @@ public class BulletScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(direction == 1)
+        if (col.gameObject.tag == "Bound")
+        {
+            Destroy(gameObject);
+        }
+
+        else if (direction == 1)
         {
             if (col.gameObject.tag == "Enemy")
             {
