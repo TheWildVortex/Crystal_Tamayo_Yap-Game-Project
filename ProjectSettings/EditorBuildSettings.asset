@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shmup.unity
     guid: 9e6b72a6ee6e33e4f8ac99a538828017
+  - enabled: 1
+    path: Assets/Scenes/TPS.unity
+    guid: 5ea73d895e75f0448ba2547c29f5f8cb
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 2f2535d163bddd641bab4739072eaa96, type: 2}

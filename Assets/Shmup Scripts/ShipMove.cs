@@ -10,8 +10,8 @@ public class ShipMove : MonoBehaviour
     Rigidbody2D rb;
     public float speed;
     public float bulletRate;
+    public int health;
     int delay = 0;
-    int health = 3;
 
     void Awake()
     {

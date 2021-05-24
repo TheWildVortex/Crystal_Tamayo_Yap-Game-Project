@@ -5188,8 +5188,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8372507365189723095, guid: e8b5ac4d90acf4a4c9082af561fc5b63, type: 3}
   pdeathexplosion: {fileID: 9177179483966269784, guid: f384d93e7656ecc48ab80520ca5f0e27, type: 3}
-  speed: 15
+  speed: 12
   bulletRate: 30
+  health: 10
 --- !u!60 &1557639708
 PolygonCollider2D:
   m_ObjectHideFlags: 0
