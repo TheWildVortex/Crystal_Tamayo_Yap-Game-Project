@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1032551483747090, guid: ef140beec582a5a46a6362fcfc31784d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4209018105610702, guid: ef140beec582a5a46a6362fcfc31784d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -201,9 +205,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 509789190}
+  - component: {fileID: 509789191}
+  - component: {fileID: 509789192}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,6 +229,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &509789191
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509789189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 3
+  m_Radius: 0.6
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: -1.13, y: -0.33, z: -1.48}
+--- !u!114 &509789192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509789189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32744aa7cc6364143bd5161db5a61588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 509789191}
+  cam: {fileID: 1684845038}
+  speed: 6
+  turnSmoothTime: 0.1
 --- !u!1 &813609466
 GameObject:
   m_ObjectHideFlags: 3
@@ -609,7 +649,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278413668}
-  m_LocalRotation: {x: 0.12221651, y: 0.024335463, z: -0.0029975744, w: 0.99220055}
+  m_LocalRotation: {x: 0.12221651, y: 0.024335427, z: -0.0029975702, w: 0.99220055}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -903,7 +943,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684845035}
-  m_LocalRotation: {x: 0.12257749, y: 0.02433439, z: -0.00300643, w: 0.992156}
+  m_LocalRotation: {x: 0.12257749, y: 0.024334315, z: -0.003006421, w: 0.992156}
   m_LocalPosition: {x: 100.957794, y: 22.713882, z: 76.87632}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1246,6 +1286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2141733307}
   - component: {fileID: 2141733306}
+  - component: {fileID: 2141733308}
   m_Layer: 0
   m_Name: CM FreeLook1
   m_TagString: Untagged
@@ -1294,7 +1335,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.51
     m_SpeedMode: 0
-    m_MaxSpeed: 450
+    m_MaxSpeed: 10
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -1318,13 +1359,13 @@ MonoBehaviour:
   m_XAxis:
     Value: 2.81
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 10
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
-    m_MinValue: -180
+    m_InvertInput: 0
+    m_MinValue: 0
     m_MaxValue: 180
     m_Wrap: 1
     m_Recentering:
@@ -1374,3 +1415,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2141733308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141733305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 128
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 0
+  m_DampingWhenOccluded: 0
+  m_OptimalTargetDistance: 0
