@@ -14,6 +14,8 @@ public class SwitchToMain : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape)) //Check if Escape key is pressed
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - SceneManager.GetActiveScene().buildIndex);
         }
     }
