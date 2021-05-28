@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class v2EnemyHealth : MonoBehaviour
 {
-    public float maxHealth;
+    public float maxHealth = 3.0f;
     public float currentHealth;
+    public GameObject deathexplosion;
 
     // Start is called before the first frame update
     void Start()
@@ -13,15 +14,9 @@ public class v2EnemyHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public void OnRaycastHit(RaycastWeapon weapon, Vector3 direction)
+    public void OnRaycastHit(RaycastWeapon weapon)
     {
-        currentHealth.TakeDamage(weapon.damage, direction);
-    }
-   
-
-    public void TakeDamage(float amount, Vector3 direction)
-    {
-        currentHealth -= amount;
+        currentHealth -= weapon.damage;
         if (currentHealth <= 0.0f)
         {
             Die();
@@ -31,5 +26,6 @@ public class v2EnemyHealth : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+        Instantiate(deathexplosion, transform.position, Quaternion.identity);
     }
 }

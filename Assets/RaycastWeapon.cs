@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RaycastWeapon : MonoBehaviour
 {
-    public float damage = 10f;
+    public float damage = 0.5f;
 
     public int shots = 0;
     public ParticleSystem muzzleFlash;
@@ -39,17 +39,10 @@ public class RaycastWeapon : MonoBehaviour
             tracer.transform.position = hitInfo.point;
         }
 
-        //colider impulse
-        var rb2d = hitInfo.collider.GetComponent<Rigidbody>();
-        if (rb2d)
-        {
-            rb2d.AddForceAtPosition(ray.direction * 20, hitInfo.point, ForceMode.Impulse);
-        }
-
         var hitBox = hitInfo.collider.GetComponent<v2EnemyHealth>();
         if (hitBox)
         {
-            hitBox.OnRaycastHit(this, ray.direction);
+            hitBox.OnRaycastHit(this);
         }
     }
 }
